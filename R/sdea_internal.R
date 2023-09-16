@@ -232,11 +232,12 @@
   # Cleanup & return Results
   #
   ###############################################################################################
-
+  
   for(k in which(dmu.status1 != 0)){
     .print_status_msg(dmu.status1[k], 1, k, debug=debug)
   }
-  for(k in which(dmu.status2 != 0 || dmu.status2 != NA)){
+ # for(k in which(dmu.status2[k] != 0 || dmu.status2[k] != NA)){
+  for(k in which(dmu.status2[k] != 0 || !is.na(dmu.status2[k]) ) ){  
     .print_status_msg(dmu.status2[k], 2, k, debug=debug)
   }
 
