@@ -1,6 +1,6 @@
 Package: TFDEA
-Version: 0.9.8.3
-Date: 2015-03-28
+Version: 0.9.8.4
+Date: 2015-09-15
 Title: Technology Forecasting using DEA (Data Envelopment Analysis)
 Authors@R: c(
   person("Tom", "Shott", role = c("aut", "cre"), email = "tshott@pdx.edu"),
